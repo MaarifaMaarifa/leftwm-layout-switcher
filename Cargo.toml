@@ -2,6 +2,7 @@
 name = "leftwm-layout-switcher"
 authors = ["Maarifa Maarifa"]
 version = "0.1.0"
+licence = "MIT"
 categories = ["command-line-utilities"]
 keywords = ["leftwm"]
 edition = "2021"
