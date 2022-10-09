@@ -29,6 +29,6 @@ After installing leftwm-layout-switcher binary and adding it to path, you can co
 
 ```shell
 git clone https://github.com/MaarifaMaarifa/leftwm-layout-switcher
-cd shell-commands-freq
+cd leftwm-layout-switcher
 cargo install --force --path .
 ```
