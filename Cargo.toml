@@ -1,0 +1,24 @@
+[package]
+name = "leftwm-layout-switcher"
+authors = ["Maarifa Maarifa"]
+version = "0.1.0"
+categories = ["command-line-utilities"]
+keywords = ["leftwm"]
+edition = "2021"
+repository = "https://github.com/MaarifaMaarifa/leftwm-layout-switcher"
+description = """
+A simple program to switch Leftwm's layout while sending desktop notification.
+"""
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "3", features = ["derive"]}
+serde = {version = "1", features = ["derive"]}
+serde_json = "1"
+notify-rust = "4"
